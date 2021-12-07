@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+:root {
+    --primary-bg: #eee;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: var(--primary-bg);
+    position: relative;
+}
+.wrapper-btn{
+    position: absolute;
+    top:0 ;
+    right: 0;
+}
+
+.card {
+    position: relative; 
+    width: 470px;
+    min-height: 400px;
+    background-color: white;
+    box-shadow: 15px 15px 60px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+}
+
+.dark {
+    background-color: #333333;
+}
+
+.dark .left{
+    color: #fff;
+}
+
+.dark h4, .dark h5, .dark h3{
+    color : #fff;
+}
+.card .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .top .user img {
+    position: relative ;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 8px;
+}
+
+.card .top .user {
+    display: flex;
+    align-items: center;
+}
+
+.card .top .user h3 {
+    font-size: 15px;
+}
+
+.body {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin: 10px 0 15px;
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.button img {
+    max-width: 50px;
+    cursor: pointer;
+}
+
+.button .left img {
+    margin-right: 8px;
+}
+
+.like {
+    margin-top: 5px;
+    font-size: 16px;
+    color: black;
+}
+
+.mess {
+    font-weight: 500;
+    margin-top: 5px;
+    color: black;
+    line-height: 1.5em;
+}
+
+.cmt {
+    margin-top: 10px;
+    font-weight: 400;
+    color: gray;
+    cursor: pointer;
+}
+
+.addcmt {
+    align-items: center;
+    margin-top: 10px;
+}
+
+.text {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+}
+
+.up {
+    margin-top: 8px;
+    font-size: 11px;
+    color: gray;
+}
+
+.dark .heart-icon {
+    fill: #fff;
+}
+
+.dark .cmt-icon {
+    fill: #fff;
+}
+
+.dark .share-icon {
+    fill: #fff;
+}
+
+.dark .save {
+    fill: #fff;
+}
+
+.dark .dot {
+    fill: #fff;
+}
+
+.dot {
+    cursor: pointer;
+}
+
+.wrapper-btn {
+    padding: 30px 40px 0px 0px;
+}
+
+.wrapper-btn .btn-change-mode {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
